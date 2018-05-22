@@ -17,7 +17,15 @@ export default StyleSheet.create({
     left: 0,
     right: 0,
     justifyContent: 'center',
-    alignItems: 'center'
+    alignItems: 'center',
+    elevation: 10,
+    shadowColor: colors.black,
+    shadowOpacity: 0.5,
+    shadowOffset: {
+      height: 0,
+      width: 0
+    },
+    shadowRadius: 5
   },
   messageContainer: {
     backgroundColor: colors.blue,
@@ -32,15 +40,5 @@ export default StyleSheet.create({
   },
   warning: {
     backgroundColor: colors.yellow
-  },
-  shadow: {
-    elevation: 10,
-    shadowColor: colors.black,
-    shadowOpacity: 0.5,
-    shadowOffset: {
-      height: 0,
-      width: 0
-    },
-    shadowRadius: 5
   }
 });

@@ -68,7 +68,6 @@ export default class Toast extends Component {
     return (
       <Animated.View
         style={[
-          styles.shadow,
           styles.container,
           { opacity: this.state.fadeAnimation, shadowOpacity: this.state.shadowOpacity }
         ]}
