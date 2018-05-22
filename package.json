@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Wolox/react-native-redux-toast.git"
+    "url": "git+https://github.com/carloscpda/react-native-redux-toast.git"
   },
   "keywords": [
     "react-native",
